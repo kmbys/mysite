@@ -4,6 +4,7 @@ SECRET_KEY = 'django-insecure-kswnssw!9buvcfgwu938&%1xy(*qk0^yc#o5ktvr5%zecy+=(y
 DEBUG = True
 ALLOWED_HOSTS = []
 INSTALLED_APPS = [
+    'polls.apps.PollsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
